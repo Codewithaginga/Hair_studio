@@ -1,114 +1,182 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: sans-serif;
 }
 
-#banner{
-    background: linear-gradient(rgba(0,0,0,0.5), #009688),url(images/banner.jpg);
+
+ .container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, #76332f, transparent),
+    url(images/mercy1.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    /* background-position: center; */
 }
 
-.logo{
-    width: 140px;
-    position: absolute;
-    top: 4%;
-    left: 10%;
-}
+.navlinks{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+    max-height: 100px;
+    background: rgba(11, 11, 11, 0.7);
+    
 
-.banner-text{
-    text-align: center;
-    color: #fff;
-    padding-top: 180px;
-
-}
-
-.banner-text h1{
-    font-size: 130px;
-
-}
- 
-.banner-text p{
-    font-size: 20px;
-    font-style: italic;
-}
-
-.banner-btn{
-    text-align: center;
-    margin: 50px auto 0;
 
 }
 
-.banner-btn a{
-    width: 150px;
-    text-decoration: none;
+.navlinks ul li{
+
     display: inline-block;
-    margin: 0 10px;
-    padding: 12px 0;
-    color: #fff;
-    border: .5px solid white;
-    position: relative;
-    z-index: 1;
-    transition: color 0.5s;
+    padding: 10px 30px;
+    
 }
 
-.banner-btn a span{
-    width: 0%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: #fff;
-    z-index: -1;
-    transition: 0.5s;
+label{
+    color: white;
+    font-size: 17px;
 }
 
-.banner-btn a:hover span{
-    width: 100%;
+span{
+    color: antiquewhite;
+    font-size: 17px;
 }
 
-.banner-btn a:hover{
-    color: black;
-}
-
-#sideNav{
-    width: 200px;
-    height: 100vh;
-    position: fixed;
-    right: 0;
-    top: 0;
-    background: #009688;
-    z-index: 2;
-}
-
-nav ul li{
-    list-style: none;
-    margin: 50px 20px;
-}
-
-nav ul li a{
+.navlinks ul li a{
     text-decoration: none;
-    color: #fff;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    
 }
 
-#menuBtn{
-    width: 50px;
-    height: 50px;
-    background: #009688;
-    text-align: center;
-    position: fixed;
-    right: 30px;
-    top: 20px;
-    border-radius: 3px;
-    z-index: 3;
+button{
+    padding: 10px 20px;
     cursor: pointer;
+    border-radius: 7px;
+    border: none;
+    color: maroon;
+    font-weight: bold;
 }
 
-#menuBtn img{
-    width: 20px;
-    margin-top: 15px;
+.content{
+
+    padding-left: 100px;
+    margin: 220px auto;
+}
+
+.content h1{
+    font-size: 50px;
+    color: bisque;
+}
+
+.content h4{
+    color: white;
+    font-size: 17px;
+    padding-bottom: 30px;
+}
+
+
+/*-----container 2-----*/
+
+
+.container-2 h1{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.container-inner{
+
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 30px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+}
+
+div .col-2{
+    height: 300px;
+}
+
+.container-2 div img{
+    width: 70%;
+    border-radius: 10px;
+    
+}
+
+
+/* cont 2*/
+
+.row H1{
+    margin: 20px;
+}
+
+.row{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 30px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+}
+
+.row .col-3{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition:  0.5s;
+}
+
+.row .col-3 img{
+    width: 60px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.row .col-3:hover{
+    transform: translate(-10px);
+
+}
+.row .quote{
+    font-size: 34px;
+    color: #ff523b;
+}
+
+.col-3 p{
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777;
+
+
+}
+
+.testimonial .col-3 h3{
+    font-weight: 600;
+    color: #555;
+    font-weight: 16px;
+}
+.footer{
+    margin: 80px 0 10px;
+    text-align: center;
+}
+
+/*----footer----*/
+
+.footer hr{
+    background: #999;
+    height: 1px;
+    width: 100%;
+    border: 0;
+    margin: 20px 0;
+}
+
+.footer p{
+    padding-bottom: 15px;
 }
 

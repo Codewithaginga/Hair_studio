@@ -4,59 +4,113 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hair Studio</title>
+    <title>Mike One</title>
     <link rel="stylesheet" href="hair.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <section id="banner">
-        <img src="images/logo.png" class="logo">
-        <div class="banner-text">
-            <h1>Hair Studio</h1>
-            <p>Style your Hair Is Style Your Life</p>
-        </div>
-        <div class="banner-btn">
-            <a href="#"><span></span>Find out</a>
-            <a href="#"><span></span>Read More</a>
-        </div>
-
-    </section>
-
-    <div id="sideNav">
-        <nav>
+    <div class="container">
+        <nav class="navlinks">
+            <label>MIKE <span>1</span></label>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">FEATURES</a></li>
-                <li><a href="#">SERVICES</a></li>
-                <li><a href="#">TESTIMONIALS</a></li>
-                <li><a href="#">MEET US</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#container-2">Our work</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
+            <button>BOOK US</button>
         </nav>
+
+        <div class="content">
+            <h1>MIKE ONE PHOTOGRAPHY</h1>
+            <h4>Great opportunity for highlight reels</h4>
+            <button>GET STARTED</button>
+        </div>
+               
     </div>
-    <div id="menuBtn">
-        <img src="images/menu.png" id="menu">
+
+    <!--section 2-->
+
+    <div class="container-2">
+        <h1>OUR WORK</h1>
+        <div class="container-inner">
+
+            <div class="col-1">
+                <img src="./images/grad4.jpg">
+            </div>
+            <div class="col-1">
+                <img src="./images/grad2.jpg">
+            </div>
+            <div class="col-2">
+                <img src="./images/grad3.jpg">
+            </div>
+        </div>
+
+        <h1> TESTIMONIALS</h1>
+
+        <div class="row">
+        
+            <div class="col-3">
+                <h1 class="quote">"</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Eius fuga aperiam modi at laboriosam. Reprehenderit cumque 
+                    error repellat voluptas molestiae quibusdam, ea nam debitis
+                     obcaecati voluptatibus soluta. Facere, voluptate impedit.
+                </p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+
+                <img src="images/mercy1.jpg">
+                <h3>Mercy Odima</h3>
+            </div>
+            <div class="col-3">
+                <h1 class="quote">"</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Eius fuga aperiam modi at laboriosam. Reprehenderit cumque 
+                    error repellat voluptas molestiae quibusdam, ea nam debitis
+                     obcaecati voluptatibus soluta. Facere, voluptate impedit.
+                </p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+
+                <img src="images/sit1.jpg">
+                <h3>Nathan james</h3>
+            </div>
+            <div class="col-3">
+                <h1 class="quote">"</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Eius fuga aperiam modi at laboriosam. Reprehenderit cumque 
+                    error repellat voluptas molestiae quibusdam, ea nam debitis
+                     obcaecati voluptatibus soluta. Facere, voluptate impedit.
+                </p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+
+                <img src="images/muslim1.jpg">
+                <h3>John Monteglu</h3>
+            </div>
+        </div>
+
+        <div class="footer">
+          
+            <p>Copyright &copy; 2023, Aginga Madiang</p>
+        </div>
+
+
     </div>
-
-    <script>
-        var menuBtn = document.getElementById("menuBtn");
-        var sideNav = document.getElementById("sideNav");
-        var menu = document.getElementById("menu");
-
-
-        menuBtn.onclick = function() {
-
-        if(sideNav.style.right == "-200px") {
-            sideNav.style.right == "0";
-        }
-
-        else{
-            sideNav.style.right == "-200px";
-        }
-        }
-    </script>
-    
 </body>
 </html>
