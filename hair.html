@@ -4,113 +4,161 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mike One</title>
+    <title>Mike 1</title>
     <link rel="stylesheet" href="hair.css">
 </head>
 <body>
-    <div class="container">
-        <nav class="navlinks">
-            <label>MIKE <span>1</span></label>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#container-2">Our work</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <button>BOOK US</button>
+    <section class="header">
+
+        <nav>
+            <label>MIKE<span>ONE</span></label>
+
+            <div class="nav-links" id="navLinks">
+                <img src="./images/x.png" onclick="hideMenu()" class="iconns">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Our Work</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <img src="./images/menu.png" onclick="showMenu()" class="iconns">
         </nav>
 
-        <div class="content">
-            <h1>MIKE ONE PHOTOGRAPHY</h1>
-            <h4>Great opportunity for highlight reels</h4>
-            <button>GET STARTED</button>
-        </div>
-               
+    <div class="text-box">
+        <h1>MIKE ONE PHOTOGRAPHY</h1>
+        <p>Anyone can take a picture, but not everyone can capture the right mood or moment. 
+            <br>We are dilighted to be  your prefferd lens.
+        </p>
+        <a href="" class="link-btn">Visit Us To Know More</a>
     </div>
 
-    <!--section 2-->
+    </section>
 
-    <div class="container-2">
-        <h1>OUR WORK</h1>
-        <div class="container-inner">
+    <!----------why I shoot------------->
+    <section class="section-2">
+        <h1>WHY I SHOOT?</h1>
+        <div class="row">
 
             <div class="col-1">
-                <img src="./images/grad4.jpg">
-            </div>
-            <div class="col-1">
-                <img src="./images/grad2.jpg">
+                <img src="images/mike-1.jpg">
             </div>
             <div class="col-2">
-                <img src="./images/grad3.jpg">
+                <p>Anyone can take a picture, but not everyone can 
+                    capture the right mood or moment. I am most at home
+                     behind a camera, and I feel connected to the world
+                      through my lens.
+                </p>
+                <p>
+                    I fell in love with photography when I 
+                    realized I could tell stories through images. 
+                    I shoot because of an insatiable need to share
+                     these narratives with the world - and editorial 
+                     photography allows me to do that, every single day.
+                </p>
+                <p>
+                    photography is an austere and blazing poetry of the real,
+                    there is one thing the photo must contain - the humanity 
+                    of the moment.
+                </p>
+                <p>
+                    photography is a way of feeling, of touching, of loving
+                    . What you have caught on film is captured forever,
+                    ...It remembers little things, long after you have
+                    forgotten everything.
+                </p>
+                <p>
+                    If you are out there shooting, things will happen
+                    for you. if you're not out there, you'll hear about it.
+                </p>
+                
             </div>
         </div>
+        <hr>
+    </section>
 
-        <h1> TESTIMONIALS</h1>
+    <!------------------Our Services-------------------->
+
+    <section class="service">
+        <h1>SERVICES OFFERED</h1>
+        <p>Enjoy the best highlight reels with us.</p>
 
         <div class="row">
-        
-            <div class="col-3">
-                <h1 class="quote">"</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                    Eius fuga aperiam modi at laboriosam. Reprehenderit cumque 
-                    error repellat voluptas molestiae quibusdam, ea nam debitis
-                     obcaecati voluptatibus soluta. Facere, voluptate impedit.
+            <div class="course-col">
+                <h3>IN PERSONS</h3>
+                <p>
+                    <ul>
+                        <li>KSH.  Per Photo</li>
+                    </ul>
                 </p>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o"></i>
-                </div>
-
-                <img src="images/mercy1.jpg">
-                <h3>Mercy Odima</h3>
             </div>
-            <div class="col-3">
-                <h1 class="quote">"</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                    Eius fuga aperiam modi at laboriosam. Reprehenderit cumque 
-                    error repellat voluptas molestiae quibusdam, ea nam debitis
-                     obcaecati voluptatibus soluta. Facere, voluptate impedit.
+            <div class="course-col">
+                <h3>EVENTS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Aperiam quisquam iusto vel aliquid atque odit
+                    fugit labore deleniti? Perspiciatis, ipsum tenetur
+                    earum repudiandae porro quaerat nemo? Aperiam nam 
+                    perferendis repellat.
                 </p>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o"></i>
-                </div>
-
-                <img src="images/sit1.jpg">
-                <h3>Nathan james</h3>
             </div>
-            <div class="col-3">
-                <h1 class="quote">"</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                    Eius fuga aperiam modi at laboriosam. Reprehenderit cumque 
-                    error repellat voluptas molestiae quibusdam, ea nam debitis
-                     obcaecati voluptatibus soluta. Facere, voluptate impedit.
+            <div class="course-col">
+                <h3>ADVENTURES</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Aperiam quisquam iusto vel aliquid atque odit
+                    fugit labore deleniti? Perspiciatis, ipsum tenetur
+                    earum repudiandae porro quaerat nemo? Aperiam nam 
+                    perferendis repellat.
                 </p>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o"></i>
-                </div>
-
-                <img src="images/muslim1.jpg">
-                <h3>John Monteglu</h3>
             </div>
         </div>
+        <hr>
+    </section>
 
-        <div class="footer">
-          
-            <p>Copyright &copy; 2023, Aginga Madiang</p>
+
+    <!-----------------------OUR WORK------------------------->
+
+    <section class="photos">
+        <h1>Our Work</h1>
+        <p>Be part of our amazing photography Journey.</p>
+
+        <div class="row">
+            <div class="photo-col">
+                <img src="images/highlights/blue-1.jpg">
+                <div class="layer">
+                    <h3>@Ksh. 200</h3>
+                </div>
+            </div>
+            <div class="photo-col">
+                <img src="images/highlights/suit-1.jpg">
+                <div class="layer">
+                    <h3>@ Ksh. 200</h3>
+                </div>
+            </div>
+            <div class="photo-col">
+                <img src="images/highlights/face-1.jpg">
+                <div class="layer">
+                    <h3>@Ksh. 200</h3>
+                </div>
+            </div>
         </div>
+        <hr>
+    </section>
 
+ 
 
-    </div>
+<!---javascript for toggle Menu-->
+<script>
+    let navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0"; //we are chaging right value    
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px"; //we are chaging right value    
+    }
+</script>
+    
+    
 </body>
 </html>
